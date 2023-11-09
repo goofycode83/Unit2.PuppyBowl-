@@ -1,3 +1,31 @@
 html {
   background-color: red;
 }
+
+h1{
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+ol {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+ol li{
+  list-style-type: none;
+  border: 5px solid black;
+  
+  margin: 8px;
+  height: 150px;
+  width: 150px;
+}
+
